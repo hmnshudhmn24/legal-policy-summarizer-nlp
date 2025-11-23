@@ -1,4 +1,4 @@
-# 🏛️ Legal / Policy Text Summarizer NLP (Flan-T5)
+# 🏛️ Legal / Policy Text Summarizer NLP
 
 An advanced Transformer-based NLP model that simplifies **legal, governmental, and policy documents** into three easy-to-understand summary formats:
 
@@ -70,26 +70,6 @@ uvicorn app.api:app --reload --port 8000
 python app/ui.py
 ```
 
-## 📑 HuggingFace YAML
----
-language:
-  - en
-tags:
-  - summarization
-  - legal
-  - policy
-  - government
-  - t5
-license: apache-2.0
-pipeline_tag: text-generation
-model_name: legal-policy-summarizer-nlp
-base_model: google/flan-t5-base
-datasets:
-  - custom
----
-
 ## ⚖️ License
 Apache License 2.0.
 
-## ⚠️ Disclaimer
-This tool provides simplified summaries and **is not legal advice**. Always consult a qualified expert.
